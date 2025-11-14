@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(15, 47, 36);
+    color: rgb(217, 255, 238);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main {
+    background-image: ;
+}
