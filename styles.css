@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(15, 47, 36);
+    background-color: rgb(3, 22, 16);
     color: rgb(217, 255, 238);
 }
 
@@ -11,4 +11,8 @@ body {
 
 .main {
     background-image: ;
+}
+
+.footer a {
+    color: rgb(152, 255, 221);
 }
