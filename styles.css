@@ -1,35 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Stalinist+One&display=swap');
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(3, 22, 16);
     color: rgb(217, 255, 238);
 }
 
+a {
+    color: rgb(160, 254, 222);
+}
+
 .header {
-    background-color: rgb(50, 116, 97);
+    background-color: rgb(45, 136, 110);
     font-family: stalinist one;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 25px;
 }
 
 .subscription {
     font-family: stalinist one;
-    background-image: ;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .articles p {
     font-family: orbitron;
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
 }
 #article-images {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 2%;
 }
 
 .about {
@@ -37,6 +49,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .about p {
     font-family: orbitron;
@@ -44,8 +58,8 @@ body {
 
 .footer {
     font-family: stalinist one;
+    margin-top: 3%;
 }
 .footer a {
     font-family: orbitron;
-    color: rgb(152, 255, 221);
 }
