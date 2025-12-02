@@ -28,6 +28,10 @@ a {
 }
 .header a {
     color:rgb(217, 255, 238);
+    transition: 350ms;
+}
+.header a:hover {
+    font-size: larger;
 }
 
 .subscription {
@@ -40,7 +44,8 @@ a {
     background-image: url(4gaming.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    height: 950px;
+    width: auto;
 }
 .subscription h2 {
     background-color:rgb(45, 136, 110);
@@ -51,6 +56,19 @@ a {
     border-radius: 10px;
     border: 2px solid rgb(160, 254, 222);
     margin-top: 500px;
+}
+
+@keyframes scale {
+    0% {
+        scale: 100%;
+    }
+    100% {
+        scale: 170%
+    }
+}
+.subscription h2:hover {
+    animation: scale 700ms ease;
+    animation-fill-mode: forwards;
 }
 
 .articles p {
