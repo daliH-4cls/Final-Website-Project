@@ -34,7 +34,7 @@ a {
     font-size: larger;
 }
 
-.subscription {
+#subscription {
     font-family: stalinist one;
     display: flex;
     flex-direction: row;
@@ -47,7 +47,7 @@ a {
     height: 950px;
     width: auto;
 }
-.subscription h2 {
+#subscription h2 {
     background-color:rgb(45, 136, 110);
     padding-left: 45px;
     padding-right: 45px;
@@ -66,7 +66,7 @@ a {
         scale: 170%
     }
 }
-.subscription h2:hover {
+#subscription h2:hover {
     animation: scale 700ms ease;
     animation-fill-mode: forwards;
 }
