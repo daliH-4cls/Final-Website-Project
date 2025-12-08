@@ -17,3 +17,22 @@ body {
 .nav a{
     color:rgb(217, 255, 238);
 }
+
+@keyframes navigate {
+    0% {
+        transform:scale(100%) translateX(0px);
+    }
+    100% {
+        transform: scale(150%) translateX(15px);
+    }
+}
+.nav:hover {
+    animation: navigate 500ms ease;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+img {
+    height: 400px;
+    width: 650px;
+}
