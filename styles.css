@@ -14,7 +14,7 @@ a {
     color: rgb(160, 254, 222);
 }
 
-.header {
+.nav {
     background-color: rgb(45, 136, 110);
     font-family: stalinist one;
     display: flex;
@@ -26,11 +26,11 @@ a {
     right: 0%;
     left: 0%;
 }
-.header a {
+.nav a {
     color:rgb(217, 255, 238);
     transition: 350ms;
 }
-.header a:hover {
+.nav a:hover {
     font-size: larger;
 }
 
@@ -66,7 +66,7 @@ a {
     }
     100% {
         scale: 170%;
-        background-color: rgb(59, 251, 187);
+        background-color: rgb(35, 191, 139);
         rotate: 5deg;
     }
 }

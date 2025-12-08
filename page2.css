@@ -3,3 +3,17 @@ body {
     color: rgb(217, 255, 238);
     text-align: center;
 }
+
+.nav {
+    background-color: rgb(45, 136, 110);
+    font-family: stalinist one;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(217, 255, 238);
+    border-radius: 5px;
+    padding: 25px 35px;
+    position: fixed;
+}
+.nav a{
+    color:rgb(217, 255, 238);
+}
