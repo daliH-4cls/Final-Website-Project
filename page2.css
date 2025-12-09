@@ -14,6 +14,7 @@ body {
     padding: 25px 35px;
     position: fixed;
 }
+
 .nav a{
     color:rgb(217, 255, 238);
 }
@@ -26,6 +27,7 @@ body {
         transform: scale(150%) translateX(15px);
     }
 }
+
 .nav:hover {
     animation: navigate 500ms ease;
     animation-fill-mode: forwards;
