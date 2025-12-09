@@ -95,9 +95,9 @@ a {
     margin-bottom: 2%;
 }
 
-img {
+#content img {
     height: 150px;
-    filter: grayscale(40%) opacity(80%);
+    filter: grayscale(70%);
 }
 
 a {
